@@ -5,6 +5,8 @@ import StatisticsSection from './Statistics/StatisticsSection';
 import StatisticsList from './Statistics/StatisticsList';
 import friends from './FriendList/friends.json';
 import FriendList from './FriendList/FriendList.jsx';
+import transactions from './Transactions/transactions.json';
+import TransactionHistory from './Transactions/TransactionHistory.jsx';
 
 function App() {
   return (
@@ -22,6 +24,7 @@ function App() {
         <StatisticsList stats={statisticalData} />
       </StatisticsSection>
       <FriendList friends={friends} />
+      <TransactionHistory items={transactions} />
     </div>
   );
 }
