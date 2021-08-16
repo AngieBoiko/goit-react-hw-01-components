@@ -1,0 +1,33 @@
+.statistics {
+  margin: 50px auto;
+  width: 400px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.title {
+  text-align: center;
+  font-weight: 400;
+}
+.stat_list {
+  padding-left: 0;
+  margin: 0;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 70px;
+  text-align: center;
+  justify-content: space-around;
+  background-color: rgb(85, 192, 192);
+}
+.item:not(:last-child) {
+  border-right: 1px solid #717180;
+}
+.label,
+.percentage {
+  color: #fff;
+}
